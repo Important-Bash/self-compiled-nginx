@@ -1,13 +1,7 @@
 ./configure 
---prefix=~/nginx 
---sbin-path=~/sbin/nginx 
---conf-path=~/nginx/nginx.conf 
---error-log-path=~/nginx/error.log 
---http-log-path=~/nginx/access.log 
---pid-path=~/nginx.pid 
---lock-path=~/nginx 
---user=nginx 
---group=nginx 
+--prefix=$HOME/nginx 
+--user=www-data
+--group=www-data
 --with-file-aio 
 --with-ipv6 
 --with-http_ssl_module 
