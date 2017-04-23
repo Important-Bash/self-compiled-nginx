@@ -33,3 +33,6 @@
 --with-pcre 
 --with-google_perftools_module
 --with-debug
+
+make
+sudo make install
